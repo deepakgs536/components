@@ -5,7 +5,7 @@ import AcUnitIcon from '@mui/icons-material/AcUnit';
 import StyledIconButton from './components/buttons/styledIconButton'
 import SignUpWithGoogle from './components/buttons/signUpWithGoogle'
 import Notification from './components/notification/notification';
-import GoogleLogo from './assets/googleLogos.png';
+import GoogleLogo from './assets/googlelogos.png';
 function App() {
   return (
     <>
@@ -45,7 +45,7 @@ function App() {
       <Box sx={{width:'300px' , my:'20px'}}>
 
       <SignUpWithGoogle 
-          iconSrc={<GoogleLogo/>} 
+          iconSrc={GoogleLogo} 
           text="Sign Up with Google" 
           disabled={false}
       />
