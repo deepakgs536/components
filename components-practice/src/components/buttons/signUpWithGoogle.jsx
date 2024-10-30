@@ -26,7 +26,7 @@ const GoogleSignUpButton = styled(Button)(({ theme }) => ({
     },
 }));
 
-const GoogleIcon = ({ src = {}, disabled }) => (
+const GoogleIcon = ({ src , disabled }) => (
     <img 
         src={src} 
         alt="Google Logo" 

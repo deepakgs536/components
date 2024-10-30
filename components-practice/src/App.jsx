@@ -43,6 +43,7 @@ function App() {
       </Box>
 
       <Box sx={{width:'300px' , my:'20px'}}>
+
       <SignUpWithGoogle 
           iconSrc={<GoogleLogo/>} 
           text="Sign Up with Google" 
